@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  md2pdf:
+    build: .
+    image: md2pdf:latest
+    volumes:
+      - ./input:/input
+      - ./output:/output
+    # Override the command when running
+    # Usage: docker-compose run --rm md2pdf /input/file.md /output/file.pdf
