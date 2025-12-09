@@ -1,6 +1,6 @@
 # Markdown to PDF Converter - Docker
 
-A Docker container that converts Markdown files to professionally styled PDFs using Python, markdown2, and WeasyPrint. This was built with Linux/Unix in mind, but I will update this in the future for ease of use on Windows too (See next steps section).
+A Docker container that converts Markdown files to styled PDFs using Python, markdown2, and WeasyPrint. This was built with Linux/Unix in mind, but I will update this in the future for ease of use on Windows too (See next steps section).
 
 ## Quick Start
 
